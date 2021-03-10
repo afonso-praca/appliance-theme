@@ -1,5 +1,5 @@
 {
-  "vendor": "demostore",
+  "vendor": "appliancetheme",
   "name": "appliance-theme",
   "version": "1.3.0",
   "builders": {
@@ -14,7 +14,6 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "demostore.twitter-integration": "3.x",
     "vtex.store": "2.x",
     "vtex.order-placed": "1.x",
     "vtex.product-review-interfaces": "1.x",
