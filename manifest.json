@@ -1,7 +1,7 @@
 {
   "vendor": "demostore",
   "name": "appliance-theme",
-  "version": "1.7.0",
+  "version": "2.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -12,6 +12,9 @@
   "mustUpdateAt": "2018-09-05",
   "scripts": {
     "postreleasy": "vtex publish --verbose"
+  },
+  "peerDependencies": {
+    "demostore.twitter-integration": "3.x"
   },
   "dependencies": {
     "vtex.store": "2.x",
