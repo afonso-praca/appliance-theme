@@ -13,9 +13,17 @@
   },
   "header-layout.desktop": {
     "children": [
+      "flex-layout.row#telemarketing",
       "header-row#4-desktop",
       "header-row#5-desktop"
     ]
+  },
+
+  "flex-layout.row#telemarketing": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
   },
 
   "header-row#4-desktop": {
