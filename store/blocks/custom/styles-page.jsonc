@@ -4,7 +4,7 @@
       "flex-layout.row#style-slider",
       "shelf#styles",
       "flex-layout.row#pink",
-      "search-result#styles"
+      "search-result-layout.customQuery"
     ]
   },
 
@@ -29,7 +29,7 @@
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "never",
-      "collection": "139",
+      "collection": "145",
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 3,
@@ -83,21 +83,66 @@
     }
   },
 
-  "search-result#styles": {
+  "search-result-layout.customQuery": {
     "blocks": [
-      "gallery",
-      "not-found",
-      "order-by",
-      "total-products",
-      "search-title"
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
     ],
     "props": {
-      "context": {
-        "maxItemsPerPage": 2,
-        "orderByField": "OrderByReleaseDateDESC"
+      "querySchema": {
+        "orderByField": "OrderByPriceDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 3,
+        "queryField": "Camera",
+        "mapField": "ft"
       },
       "pagination": "show-more"
     }
+  },
+
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#results": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#search"
+    ]
+  },
+  "flex-layout.col#filter": {
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#search": {
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
   }
 
 }
