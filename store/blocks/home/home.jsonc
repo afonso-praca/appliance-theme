@@ -17,7 +17,11 @@
       "banners": [
         {
           "image": "assets/chrome1.png",
-          "customInternalURL": "/major-appliances/"
+          "customInternalURL": "/chrome/"
+        },
+        {
+          "image": "assets/vintage1.png",
+          "customInternalURL": "/vintage/"
         }
       ],
       "height": 440,
