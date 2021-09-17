@@ -2,7 +2,6 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#slider",
-      "iframe-listener",
       "shelf#new-arrivals",
       "shelf#clearance",
       "flex-layout.row#newsletter",
