@@ -1,7 +1,7 @@
 {
   "vendor": "demostore",
   "name": "appliance-theme",
-  "version": "8.0.1",
+  "version": "8.0.3",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
