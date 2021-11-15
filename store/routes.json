@@ -1,5 +1,8 @@
 {
   "store.custom#styles": {
     "path": "/styles"
+  },
+  "store.custom#live": {
+    "path": "/live"
   }
 }
