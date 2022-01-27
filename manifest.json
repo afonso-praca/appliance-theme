@@ -18,6 +18,7 @@
     "vtexventures.livestreaming-free": "0.x"
   },
   "dependencies": {
+    "demostore.twitter-integration": "3.x",
     "vtex.telemarketing": "2.x",
     "vtex.store": "2.x",
     "vtex.order-placed": "1.x",

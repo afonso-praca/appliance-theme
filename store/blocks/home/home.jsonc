@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#slider",
+      "twitter-cards",
       "shelf#new-arrivals",
       "shelf#clearance",
       "flex-layout.row#newsletter",
