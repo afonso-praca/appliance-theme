@@ -28,11 +28,19 @@
 
   "header-row#4-desktop": {
     "children": [
-      "logo#desktop"
+      "logo#desktop",
+      "binding-selector"
     ],
     "props": {
       "sticky": true,
       "blockClass": "main-header"
+    }
+  },
+
+  "binding-selector": {
+    "props": {
+      "layout": "dropdown",
+      "display": "text"
     }
   },
 

@@ -1,7 +1,7 @@
 {
   "vendor": "demostore",
   "name": "appliance-theme",
-  "version": "8.2.2",
+  "version": "9.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -15,7 +15,8 @@
   },
   "peerDependencies": {
     "vtex.store-locator": "0.x",
-    "vtexventures.livestreaming-free": "0.x"
+    "vtexventures.livestreaming-free": "0.x",
+    "vtex.binding-selector": "2.x"
   },
   "dependencies": {
     "vtex.telemarketing": "2.x",
