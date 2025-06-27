@@ -28,8 +28,8 @@
 
   "header-row#4-desktop": {
     "children": [
-      "logo#desktop",
-      "binding-selector"
+      "logo#desktop2"
+      //"binding-selector"
     ],
     "props": {
       "sticky": true,
@@ -68,12 +68,12 @@
     }
   },
 
-  "logo#desktop": {
+  "logo#desktop2": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-logo-large.png",
-      "width": "110"
+      "url": "assets/logo.png",
+      "width": "240"
     }
   },
 

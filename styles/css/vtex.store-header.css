@@ -4,8 +4,8 @@
 }
 
 .headerRow--main-header .headerRowBackground {
-  background-color: #212222;
-  padding: 1.5em 0;
+  background-color: #0066FF;
+  padding: .5em 0;
 }
 /*
 .headerRow--main-header :global(a) {
@@ -18,7 +18,7 @@
 }
 
 .headerRow--main-header-mobile .headerRowBackground {
-  background-color: #212222;
+  background-color: #0066FF;
   padding: 1.5em 0;
 }
 

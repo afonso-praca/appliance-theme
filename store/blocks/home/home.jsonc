@@ -2,9 +2,9 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#slider",
-      "shelf#new-arrivals",
-      "shelf#clearance",
-      "flex-layout.row#newsletter",
+      "shelf#new-arrivals2",
+      "shelf#clearance2",
+      //"flex-layout.row#newsletter",
       "rich-text#brands",
       "flex-layout.row#brands"
     ]
@@ -16,12 +16,8 @@
       "autoplaySpeed": 4,
       "banners": [
         {
-          "image": "assets/chrome1.png",
+          "image": "assets/banner.jpg",
           "customInternalURL": "/chrome/"
-        },
-        {
-          "image": "assets/vintage1.png",
-          "customInternalURL": "/vintage/"
         }
       ],
       "height": 440,
@@ -47,36 +43,36 @@
     }
   },
 
-  "shelf#new-arrivals": {
+  "shelf#new-arrivals2": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByPriceDESC",
       "paginationDotsVisibility": "desktopOnly",
       "collection": "148",
       "productList": {
-        "maxItems": 9,
+        "maxItems": 6,
         "itemsPerPage": 3,
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Brand new arrivals"
+        "titleText": "Best Sellers"
       }
     }
   },
 
-  "shelf#clearance": {
+  "shelf#clearance2": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByPriceDESC",
       "collection": "147",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
-        "maxItems": 9,
+        "maxItems": 6,
         "itemsPerPage": 3,
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Clearance"
+        "titleText": "Trending Now"
       }
     }
   }
