@@ -1,12 +1,12 @@
 {
-  "vtex.menu@2.x:menu#category-menu": {
+  "vtex.menu@2.x:menu#category-menu2": {
     "children": [
-      "menu-item#category-electronics",
-      "menu-item#category-major-appliances",
-      "menu-item#category-small-appliances"
+      "menu-item#category-electronics2",
+      "menu-item#category-major-appliances2",
+      "menu-item#category-small-appliances2"
     ]
   },
-  "menu-item#category-electronics": {
+  "menu-item#category-electronics2": {
     "props": {
       "id": "menu-item-category-electronics",
       "type": "custom",
@@ -23,7 +23,7 @@
     }
   },
 
-  "menu-item#category-major-appliances": {
+  "menu-item#category-major-appliances2": {
     "props": {
       "id": "menu-item-category-major-appliances",
       "type": "custom",
@@ -34,12 +34,12 @@
         "type": "internal",
         "href": "/major-appliances/",
         "noFollow": true,
-        "tagTitle": "Major Appliances",
-        "text": "Major Appliances"
+        "tagTitle": "Furniture",
+        "text": "Furniture"
       }
     }
   },
-  "menu-item#category-small-appliances": {
+  "menu-item#category-small-appliances2": {
     "props": {
       "id": "menu-item-category-small-appliances",
       "type": "custom",
@@ -50,8 +50,8 @@
         "type": "internal",
         "href": "/small-appliances",
         "noFollow": true,
-        "tagTitle": "Small appliances",
-        "text": "Small appliances"
+        "tagTitle": "Electronics",
+        "text": "Electronics"
       }
     }
   },

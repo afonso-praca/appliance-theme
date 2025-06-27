@@ -56,7 +56,7 @@
 
   "header-row#5-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#category-menu",
+      "vtex.menu@2.x:menu#category-menu2",
       "header-spacer",
       "header-spacer",
       "search-bar",
@@ -123,9 +123,9 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-electronics",
-      "menu-item#category-major-appliances",
-      "menu-item#category-small-appliances",
+      "menu-item#category-electronics2",
+      "menu-item#category-major-appliances2",
+      "menu-item#category-small-appliances2",
       "menu-item#login"
     ],
     "props": {

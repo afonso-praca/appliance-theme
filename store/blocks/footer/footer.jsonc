@@ -28,10 +28,9 @@
 
   "vtex.menu@2.x:menu#footer-desktop-menu": {
     "children": [
-      "menu-item#category-electronics",
-      "menu-item#category-major-appliances",
-      "menu-item#category-small-appliances",
-      "menu-item#stores"
+      "menu-item#category-electronics2",
+      "menu-item#category-major-appliances2",
+      "menu-item#category-small-appliances2"
     ]
   },
 
@@ -76,9 +75,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-electronics",
-      "menu-item#category-major-appliances",
-      "menu-item#category-small-appliances",
+      "menu-item#category-electronics2",
+      "menu-item#category-major-appliances2",
+      "menu-item#category-small-appliances2",
       "menu-item#stores"
     ]
   },
